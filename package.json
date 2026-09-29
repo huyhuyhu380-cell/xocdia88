@@ -1,0 +1,15 @@
+{
+  "name": "seiu-engine",
+  "version": "10.0.0",
+  "description": "SEIU Engine v10",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
